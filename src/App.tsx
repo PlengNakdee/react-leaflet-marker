@@ -48,20 +48,10 @@ export default function App() {
         // @ts-ignore
         ref={setMap}
         >
-      <LayersControl position="topleft">
-        <LayersControl.BaseLayer checked name="OpenStreetMap">
-          <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-        </LayersControl.BaseLayer>
-        {/* <LayersControl.BaseLayer checked name="MapBox VectorGrid">
-          <VectorGrid />
-        </LayersControl.BaseLayer> */}
-        {/* <LayersControl.Overlay name="geoJSON">
-          <GeoJSON data={geoJSONData} />
-        </LayersControl.Overlay> */}
-      </LayersControl>
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
       <Geoman />
       </MapContainer>
       </div>
