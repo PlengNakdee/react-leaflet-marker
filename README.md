@@ -15,3 +15,7 @@ Has to set in `App.css` or Map will not render
   height: 100vh;
 }
 ```
+
+## Note
+- https://jsfiddle.net/falkedesign/e8prm0qu/
+- https://github.com/geoman-io/leaflet-geoman
