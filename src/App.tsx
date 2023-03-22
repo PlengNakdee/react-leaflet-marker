@@ -3,8 +3,8 @@ import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 import Geoman from "./geoman";
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-const latitude = 13.7554
-const longitude = 100.4932
+const latitude = 39.9139
+const longitude = 116.3915
 const center = [latitude, longitude]
 const zoom = 17
 
